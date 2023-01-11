@@ -868,7 +868,7 @@ export class AppConfig {
   @Min(0)
   browserNavigationTimeout = process.env.BROWSER_NAVIGATION_TIMEOUT
     ? parseInt(process.env.BROWSER_NAVIGATION_TIMEOUT, 10)
-    : 30000;
+    : 300000;
 
   /**
    * The 2 character country code associated with your account.
